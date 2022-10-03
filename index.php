@@ -27,8 +27,9 @@
 		$encrypted = $_GET['p'];
 		$decrypted = decrypt($key, $encrypted);
 	 
+		echo "Key: $my_key_var <br>";
 		echo "Encrypted Text: $encrypted <br>";
-		echo "Decrypted Text: $decryptedPayload <br>";
+		echo "Decrypted Text: $decrypted <br>";
 	?>
 
 </body>
