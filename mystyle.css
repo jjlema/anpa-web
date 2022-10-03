@@ -1,0 +1,21 @@
+html, body {
+   margin: 0; height: 100%; 
+}
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 10%;
+}
