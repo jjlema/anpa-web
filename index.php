@@ -43,8 +43,8 @@
 			<h2 align=center><font face="calibri">FAMILIA</font></h2>
 			<h3 align=center><font face="calibri"><?php echo $info[1] ?></font></h3>
 			<hr width="75%" color="#FF914D" size="5px">
-			<h3 align=center><font face="courier">https://sites.google.com/view/anpaogalo</font></h3>
-			<h3 align=center><font face="courier">660 776 917</font></h3>
+			<p align=center><font face="courier">https://sites.google.com/view/anpaogalo</font></p>
+			<p align=center><font face="courier">660 776 917</font></p>
 	      </div>
     </div>
 	
