@@ -23,11 +23,10 @@
 		}
 	 
 
-		$my_key_var = getenv('MY_KEY');
+		$key = getenv('MY_KEY');
 		$encrypted = $_GET['p'];
 		$decrypted = decrypt($key, $encrypted);
 	 
-		echo "Key: $my_key_var <br>";
 		echo "Encrypted Text: $encrypted <br>";
 		echo "Decrypted Text: $decrypted <br>";
 	?>
