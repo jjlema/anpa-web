@@ -29,12 +29,12 @@
 	
 	$info = explode(':', $decrypted);
 	
-	$socio = $info[0];
-	$proxenitor1 = $info[1];
-	$proxenitor2 = $info[2];
-	$fillo1 = $info[3];
-	$fillo2 = $info[4];
-	$fillo3 = $info[5];
+	$socio = utf8_encode($info[0]);
+	$proxenitor1 = utf8_encode($info[1]);
+	$proxenitor2 = utf8_encode($info[2]);
+	$fillo1 = utf8_encode($info[3]);
+	$fillo2 = utf8_encode($info[4]);
+	$fillo3 = utf8_encode($info[5]);
 	
 ?>
 
