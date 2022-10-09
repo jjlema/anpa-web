@@ -27,14 +27,14 @@
 	$encrypted = $_GET['p'];
 	$decrypted = decrypt($key, $encrypted);
 	
-	$info = explode(':', $decrypted)
+	$info = explode(':', $decrypted);
 	
-	$socio = $info[0]
-	$proxenitor1 = $info[1]
-	$proxenitor2 = $info[2]
-	$fillo1 = $info[3]
-	$fillo2 = $info[4]
-	$fillo3 = $info[5]
+	$socio = $info[0];
+	$proxenitor1 = $info[1];
+	$proxenitor2 = $info[2];
+	$fillo1 = $info[3];
+	$fillo2 = $info[4];
+	$fillo3 = $info[5];
 	
 ?>
 
